@@ -282,19 +282,17 @@ span a{
     color: white;
 }
 
+
+/* section img + text */
 .img-text{
     max-width: 76%;
+    margin: 0 auto;
     margin-top: 10rem;
 }
 
 .img-man{
+    width: 50%;
     float: left;
-    width: 50%;
-}
-
-.side-text{
-    float: right;
-    width: 50%;
 }
 
 
