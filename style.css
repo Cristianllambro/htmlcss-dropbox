@@ -2,4 +2,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* general style */
+
+.btn-blue{
+    background-color: #0061ff;
+    padding: .4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.nav-bar{
+    max-width: 100%;
+    line-height: 48px;
+}
+
+.nav-left a, .nav-right a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-left li, .nav-right li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    line-height: 83px;
+    vertical-align: middle;
+    float: left;
+}
+
+.nav-left{
+    float: left;
+}
+
+.nav-right{
+    float: right;
+}
+
+.nav-right .btn-blue a{
+    color: white;
+}
+
+.nav-main{
+    background-color: #b4d0e7;
+}
+
+.width{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 60px;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.text-p{
+    width: 30%;
+    padding-bottom: 11rem;
+    float: left;
+}
+
+.text-p p{
+    padding-bottom: 2rem;
+}
+
+.btn a{
+    background-color: #0061ff;
+    color: white;
+    max-width: 200px;
+
+    text-decoration: none;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    display: block;
+}
+
+.text-p span{
+    padding-top: 1rem;
+    display: block;
+}
+
+.arrow{
+    
 }
