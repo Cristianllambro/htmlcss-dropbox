@@ -123,7 +123,7 @@
     max-width: 80%;
     margin: 0 auto;
     padding-top: 13rem;
-
+    padding-bottom: 5rem;
 }
 
 .table h2, .table .circle-text{
@@ -158,7 +158,6 @@
 
 /* column */
 
-
 .col{
     max-width: calc(100% / 3 - 4rem);
     margin-left: 2em;
@@ -178,9 +177,13 @@
     margin-top: 0;
 }
 
-.col h3{
+h3{
     font-size: 25px;
-    margin-top: 3rem;
+    margin-top: 2rem;
+}
+
+h4{
+    font-size: 16px;
 }
 
 .col-inside{
@@ -214,12 +217,9 @@ span a{
 
 .col-inside h4{
     margin-top: 3rem;
-}
-
-.col-inside h4{
-    font-size: 16px;
     margin-bottom: 1rem;
 }
+
 
 .col-inside li{
     display: block;
@@ -241,3 +241,62 @@ span a{
 .col-three{
     float: left;
 }
+
+.table-or{
+    max-width: 76%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.text-tab{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: block;
+    position: relative;
+}
+
+.text-tab h4{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-tab span{
+    display: block;
+    padding-bottom: 2rem;
+}
+
+.office{
+    font-size: 15px;
+    background-color: #0061ff;
+    line-height: 30px;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.office a{
+    text-decoration: none;
+    color: white;
+}
+
+.img-text{
+    max-width: 76%;
+    margin-top: 10rem;
+}
+
+.img-man{
+    float: left;
+    width: 50%;
+}
+
+.side-text{
+    float: right;
+    width: 50%;
+}
+
+
+
+
