@@ -93,11 +93,107 @@
     display: block;
 }
 
+/* da regolare */
+.arrow{
+    
+}
+
 .text-p span{
     padding-top: 1rem;
     display: block;
 }
 
-.arrow{
-    
+.img-nav img{
+    width: 800px;
 }
+
+.img-nav{
+    max-width: 70%;
+    margin-bottom: -10em;
+    float: left;
+
+    box-shadow: 0px 10px 5px #ccc; ;
+}
+
+.table{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 13rem;
+}
+
+.table h2{
+    font-size: 40px;
+    padding-bottom: 5rem;
+}
+
+.circle-text{
+    margin-bottom: 2rem;
+}
+
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.blue{
+    border: 5px solid #0061ff;
+}
+
+.white{
+    border: 1px solid grey;
+    margin-left: 1.5rem;
+}
+
+/* column */
+
+.col{
+    border: 1px solid gray;
+    width: 30%;
+}
+
+.col span{
+    margin-top: 2rem;
+    display: block;
+}
+
+.border{
+    text-align: center ;   
+    line-height: 40px;
+    border-bottom: 1px solid gray;
+    margin-top: 0;
+}
+
+.col h3{
+    font-size: 25px;
+    margin-top: 3rem;
+}
+
+.col-inside{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.btn-two{
+    background-color: #0061ff;
+    text-align: center;
+    padding: .5rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+} 
+
+.btn-two a{
+    text-decoration: none;
+    color: white;
+}
+
+span a{
+    color: #0061ff;
+}
+
+
+
+
