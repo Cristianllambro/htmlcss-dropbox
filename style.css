@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* general style */
@@ -24,14 +25,14 @@
     text-decoration: none;
 }
 
-/* da regolare
-.nav-right li .btn a{
-
-} */
-
 .nav-left li, .nav-right li{
     display: inline;
     margin: 0 15px;
+}
+
+li:hover{
+    padding-bottom: 1.8rem;
+    border-bottom: 2px solid black;
 }
 
 .clearfix::after{
@@ -98,13 +99,17 @@
     display: block;
 }
 
-da regoalre
+/* da modificare */
+
 .arrow a{
-    height: 30%;
+    color: black;
+    margin-top: 2rem;
+    font-size: 40px;
 }
 
 .text-p span{
-    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: block;
 }
 
