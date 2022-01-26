@@ -14,10 +14,9 @@
     padding-right: 1rem;
 }
 
-
 .nav-bar{
     max-width: 100%;
-    line-height: 48px;
+    line-height: 80px;
 }
 
 .nav-left a, .nav-right a{
@@ -25,9 +24,14 @@
     text-decoration: none;
 }
 
+/* da regolare
+.nav-right li .btn a{
+
+} */
+
 .nav-left li, .nav-right li{
     display: inline-block;
-    padding: 15px;
+    margin: 0 15px;
 }
 
 .clearfix::after{
@@ -39,8 +43,8 @@
 .logo{
     padding-right: 1rem;
     padding-left: 1rem;
-    line-height: 83px;
-    vertical-align: middle;
+    line-height: 80px;
+    vertical-align: center;
     float: left;
 }
 
@@ -93,10 +97,10 @@
     display: block;
 }
 
-/* da regolare */
+/* da regoalre
 .arrow{
     
-}
+} */
 
 .text-p span{
     padding-top: 1rem;
@@ -194,6 +198,7 @@ h4{
 
 }
 
+
 .btn-two{
     background-color: #0061ff;
     text-align: center;
@@ -229,7 +234,7 @@ span a{
 }
 
 .col-inside ul{
-    /* margin-bottom: 10rem; */
+    margin-bottom: 8rem;
 }
 
 .col{
@@ -317,6 +322,61 @@ span a{
     border: 1px solid black;
 }
 
+.six-img{
+    max-width: 76%;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.six-img h2{
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+
+.box img{
+    width: 100%;
+    text-align: center;
+}
 
 
+.box{
+    width: 30%;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    float: left;
+}
+
+.six-img h3{
+    margin-bottom: 2rem;
+}
+
+.title-box{
+    width: 76%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    margin-top: 13rem;
+}
+
+.title-box h2{
+    margin-bottom: 2rem;
+}
+
+.title-box span a{
+    color:  #0061ff;
+}
+
+.title-box span{
+    margin-bottom: 3rem;
+}
+
+.box-left{
+    width: 30%;
+}
+
+.box-left img{
+    width: 40%;
+    text-align: center;
+    display: block;
+    float: left;
+}
 
