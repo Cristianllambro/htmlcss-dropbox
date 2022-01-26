@@ -385,3 +385,21 @@ span a{
     float: left;
 }
 
+.item-box{
+    width: 310px;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.item img{
+    float: left;
+    display: block;
+    position: absolute;
+    top: 75px;
+    left: 37.5px;
+    /* transform: translate(-75px -75px); */
+}
