@@ -30,7 +30,7 @@
 } */
 
 .nav-left li, .nav-right li{
-    display: inline-block;
+    display: inline;
     margin: 0 15px;
 }
 
@@ -41,11 +41,13 @@
 }
 
 .logo{
-    padding-right: 1rem;
-    padding-left: 1rem;
-    line-height: 80px;
-    vertical-align: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
     float: left;
+}
+
+.nav-bar .logo img{
+    vertical-align: middle;
 }
 
 .nav-left{
@@ -77,7 +79,7 @@
 
 .text-p{
     width: 30%;
-    padding-bottom: 11rem;
+    margin-bottom: 11rem;
     float: left;
 }
 
@@ -88,19 +90,18 @@
 .btn a{
     background-color: #0061ff;
     color: white;
-    max-width: 200px;
 
     text-decoration: none;
     text-align: center;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding: .5rem;
+    margin-right: 4rem;
     display: block;
 }
 
-/* da regoalre
-.arrow{
-    
-} */
+da regoalre
+.arrow a{
+    height: 30%;
+}
 
 .text-p span{
     padding-top: 1rem;
@@ -203,9 +204,7 @@ h4{
     background-color: #0061ff;
     text-align: center;
     padding: .5rem;
-    margin-top: 3rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin: 3rem 1rem;
 } 
 
 .btn-two a{
@@ -237,7 +236,8 @@ span a{
     margin-bottom: 8rem;
 }
 
-.col{
+.col-one{
+    padding-bottom: 2.8rem;
     float: left;
 }
 
