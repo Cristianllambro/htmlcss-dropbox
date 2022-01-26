@@ -25,12 +25,13 @@
     text-decoration: none;
 }
 
-.nav-left li, .nav-right li{
+.nav-left li, .nav-right li {
     display: inline;
     margin: 0 15px;
 }
 
-.over li:hover{
+
+.over a:hover{
     padding-bottom: 1.8rem;
     border-bottom: 2px solid black;
 }
