@@ -30,7 +30,7 @@
     margin: 0 15px;
 }
 
-li:hover{
+.over li:hover{
     padding-bottom: 1.8rem;
     border-bottom: 2px solid black;
 }
@@ -99,8 +99,6 @@ li:hover{
     display: block;
 }
 
-/* da modificare */
-
 .arrow a{
     color: black;
     margin-top: 2rem;
@@ -115,14 +113,13 @@ li:hover{
 
 .img-nav img{
     width: 800px;
+    margin-bottom: -32em;
+    box-shadow: 0px 10px 5px #ccc; ;
 }
 
 .img-nav{
     max-width: 70%;
-    margin-bottom: -10em;
     float: left;
-
-    box-shadow: 0px 10px 5px #ccc; ;
 }
 
 
@@ -374,32 +371,138 @@ span a{
     margin-bottom: 3rem;
 }
 
-.box-left{
-    width: 30%;
+
+/* squares left */
+
+.item-box{
+    width: 100%;
 }
 
-.box-left img{
-    width: 40%;
+.box-left{
+    width: 400px;
+    float: left;
+}
+
+.item{
+    width: 150px;
     text-align: center;
     display: block;
     float: left;
 }
 
-.item-box{
-    width: 310px;
+.green{
+    background-color: #a2d39b;
+    border: 10px solid #cee8ca;
 }
 
-.item{
-    width: 150px;
-    height: 150px;
-    position: relative;
+.bordeaux{
+    background-color: #61082b;
 }
 
-.item img{
-    float: left;
+.cyan{
+    background-color: #0093ce;
+}
+
+.red{
+    background-color: #ff1c1c;
+}
+
+
+/* bot squares  */
+
+.bot-squares{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #b4d0e7;
+}
+
+.text-squares{
+    padding: 6rem 0;
+    width: 76%;
+    margin: 0 auto;
+}
+
+.text-squares h2{
+    width: 40%;
+    font-size: 40px;
+    color: #61082b;
+    display: inline-block;
+}
+
+.btn-white{
+    background-color: white;
+    padding: .7rem 1.5rem;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+.question{
+    width: 76%;
+    margin: 0 auto;
+}
+
+.question h3{
+    font-size: 24px;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.question span{
     display: block;
-    position: absolute;
-    top: 75px;
-    left: 37.5px;
-    /* transform: translate(-75px -75px); */
+    padding: 2rem 0;
+    border-bottom: 1px solid black;
+}
+
+.question span:first-child{
+    border-top: 1px solid black;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    background-color: black;
+}
+
+.list{
+    margin: 0 10rem;
+    list-style: none;
+}
+
+.col-foot{
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    float: left;
+    width: 20%;
+}
+
+.list h4{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    padding-left: .3rem;
+}
+
+.inside-ul li{
+    padding: .3rem;
+}
+
+.list ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.flag{
+    margin-left: 10rem;
+    padding-top: 2rem;
+    font-size: 14px;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.bi-triangle-fill{
+    font-size: 8px;
 }
