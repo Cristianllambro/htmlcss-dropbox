@@ -219,6 +219,7 @@ span a{
 }
 
 .row{
+    width: 150px;
     padding-bottom: 2rem;
     border-bottom: 1px solid gray;
 }
@@ -376,6 +377,7 @@ span a{
 
 .item-box{
     width: 100%;
+    height: 400px;
 }
 
 .box-left{
@@ -384,10 +386,16 @@ span a{
 }
 
 .item{
-    width: 150px;
+    width: 40%;
+    height: 40%;
     text-align: center;
     display: block;
     float: left;
+}
+
+.item img{
+    vertical-align: middle;
+    width: 100%;
 }
 
 .green{
