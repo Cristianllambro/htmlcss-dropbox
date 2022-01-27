@@ -384,26 +384,28 @@ span a{
 
 /* squares left */
 
-.item-box{
-    width: 100%;
-}
-
-
 .box-squa{
-    width: 30%;
-    height: 40vh;
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    float: left;
 }
 
 .box-middle{
-    width: 70%;
-    height: 40vh;
+    width: 50%;
+    padding-bottom: 50%;
     float: left;
     background-color: #f5f5f5;
+    display: inline-block;
+}
+
+.box-inside{
+    max-height: 100%;
 }
 
 .item{
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    height: 50%;
     float: left;
 }
 
@@ -418,7 +420,8 @@ span a{
 /* background color squares */
 .green{
     background-color: #a2d39b;
-    border: 10px solid #cee8ca;
+    /* border: 10px solid #cee8ca; */
+    box-sizing: border-box;
 }
 
 .bordeaux{
