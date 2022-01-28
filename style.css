@@ -24,6 +24,10 @@
     padding: .5rem 1rem;
 }
 
+.btn-blue:hover{
+    opacity: 0.7;
+}
+
 .over .btn-blue{
     display: inline;
 }
@@ -107,6 +111,10 @@
     padding: .5rem;
     margin-right: 4rem;
     display: block;
+}
+
+.btn:hover{
+    opacity: 0.7;
 }
 
 .arrow a{
@@ -211,6 +219,9 @@ h4{
 
 }
 
+.btn-two:hover{
+    opacity: 0.7;
+}
 
 .btn-two{
     background-color: #0061ff;
@@ -290,6 +301,10 @@ span a{
     padding-bottom: 2rem;
 }
 
+.office:hover{
+    opacity: 0.7;
+}
+
 .office{
     font-size: 15px;
     background-color: #0061ff;
@@ -337,6 +352,10 @@ span a{
     text-align: center;
     padding: .6rem 1rem;
     border: 1px solid black;
+}
+
+.btn-border:hover{
+    background-color: #f5f5f5;
 }
 
 .six-img{
@@ -511,6 +530,10 @@ span a{
     color: black;
 }
 
+.btn-white:hover{
+    background-color: #f5f5f5;
+}
+
 .question{
     width: 76%;
     margin: 0 auto;
@@ -522,17 +545,41 @@ span a{
     margin-bottom: 3rem;
 }
 
-.question span{
+.quest{
     display: block;
     padding: 2rem 0;
     border-bottom: 1px solid black;
+    position: relative;
 }
+
+.quest h4{
+    padding-bottom: 1rem;
+}
+
+.quest p a{
+    color: black;
+}
+
+.quest p{
+    display: none;
+}
+
+.quest:hover p{
+    display: block;
+}
+
+.quest:hover .fa-chevron-up{
+    display: block;
+}
+
 
 .fa-chevron-down{
-    padding-left: 25rem;
+    position: absolute;
+    top: 2rem;
+    right: 0;
 }
 
-.question span:first-of-type{
+.quest:first-of-type{
     border-top: 1px solid black;
 }
 
@@ -571,6 +618,10 @@ span a{
 .list ul li a{
     color: white;
     text-decoration: none;
+}
+
+.inside-ul li a:hover{
+    text-decoration: underline;
 }
 
 .flag{
