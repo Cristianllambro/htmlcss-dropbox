@@ -55,8 +55,8 @@
 }
 
 
-.over .logo-drop{
-    vertical-align: -5px;
+.logo-drop img{
+    vertical-align: sub;
 }
 
 .nav-left{
